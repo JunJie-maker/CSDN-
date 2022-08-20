@@ -1,0 +1,439 @@
+<!--
+ * @Author: [JunJie-maker] [2573014631@qq.com]
+ * @Date: 2022-08-14 20:36:40
+ * @LastEditors: [JunJie-maker] [2573014631@qq.com]
+ * @LastEditTime: 2022-08-18 23:37:08
+ * @FilePath: \csdn.project.seven\csdnvip.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSDN会员</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/csdnvip.css">
+    <link rel="stylesheet" href="./lib/fonts/remixicon.css">
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header class="header" id="header">
+        <!-- logo区域 -->
+        <div class="logo">
+            <h1>CSDN</h1>
+            <a href="https://www.csdn.net/?spm=1000.2115.3001.4476" target="_blank">
+                <img src="./images/logo.png" alt="csdn">
+            </a>
+        </div>
+        <!-- 搜索框区域 -->
+        <div class="search">
+            <i class="ri-fire-fill"></i>
+            <input type="search" placeholder="小柴爱程序">
+        </div>
+        <!-- 打开app -->
+        <a class="openapp" href="https://www.csdn.net/apps/download/?code=1639449792&channelCode=1639449792" target="_blank">打开App</a>
+        <!-- 竖线图标 -->
+        <span class="icon-line"></span>
+        <!-- 用户头像 -->
+        <div class="userlogo">
+            <a href="https://blog.csdn.net/IAMLSD550?spm=1010.2135.3001.5343" target="_blank">
+                <img src="./uploads/logo.jpg" alt="小柴爱程序">
+            </a>
+        </div>
+        <!-- 菜单栏 -->
+        <div class="menu" id="menu">
+            <img id="img1" src="./images/icon-wap-toolbar-menu.png" alt="菜单栏">
+            <img id="img2" src="./images/menu_del.png" alt="返回菜单">
+        </div>
+    </header>
+    <!-- 下拉内容区域 -->
+    <div class="down_cont" id="downcont">
+        <div class="down_content">
+            <!-- 热门频道 -->
+            <div class="hot_channel">
+                <h4>热门频道</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/home.png" alt="首页">
+                            </div>
+                            <p>首页</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/blog.png" alt="博客">
+                            </div>
+                            <p>博客</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://edu.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/college.png" alt="研修院">
+                            </div>
+                            <p>研修院</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mall.csdn.net/vip" target="_blank">
+                            <div>
+                                <img src="./images/vip.png" alt="VIP">
+                            </div>
+                            <p>VIP</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.csdn.net/apps/download/?code=wap_1555569676" target="_blank">
+                            <div>
+                                <img src="./images/app.png" alt="APP">
+                            </div>
+                            <p>APP</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ask.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/ask.png" alt="问答">
+                            </div>
+                            <p>问答</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://download.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/download.png" alt="下载">
+                            </div>
+                            <p>下载</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bbs.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/community.png" alt="社区">
+                            </div>
+                            <p>社区</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 推荐频道 -->
+            <div class="recom_channel">
+                <h4>推荐频道</h4>
+                <ul>
+                    <li>
+                        <a href="https://huiyi.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/activity.png" alt="活动">
+                            </div>
+                            <p>活动</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <div>
+                                <img src="./images/job.png" alt="招聘">
+                            </div>
+                            <p>招聘</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://spec.csdn.net/" target="_blank">
+                            <div>
+                                <img src="./images/topic.png" alt="专题">
+                            </div>
+                            <p>专题</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 打开app按钮 -->
+            <div class="open_btn">
+                <a href="">打开CSDN APP</a>
+            </div>
+            <!-- 版权说明 -->
+            <p class="copyright">
+                Copyright © 2022-08-15 xaiochai. 复刻. All Rights Reserved
+            </p>
+        </div>
+    </div>
+    <!-- 主内容区域 -->
+    <div class="main_cont">
+        <!-- 第一部分 -->
+        <div class="top_bg">
+            <div class="user_bg">
+                <div class="user_logo">
+                    <img src="./uploads/logo.jpg" alt="小柴爱程序">
+                </div>
+                <div class="dp_cont">
+                    <h4>小柴爱程序</h4>
+                    <p>开通CSDN会员年卡可参与抽奖，有机会得千元奖品</p>
+                </div>
+            </div>
+        </div>
+        <!-- 第二部分 -->
+        <div class="tabs">
+            <div class="tabs_hd">900万优质资源随心下载</div>
+            <div class="tabs_bd" id="tabsbd">
+                <i class="ri-arrow-left-s-line right" id="right"></i>
+                <i class="ri-arrow-right-s-line left" id="left"></i>
+                <ul id="listmove">
+                    <li>
+                        <div class="top_text">VIP月卡</div>
+                        <div class="middle_pri">¥<span id="price1">98.00</span>/月
+                        </div>
+                        <div class="bottom_text">享 30次资源下载</div>
+                    </li>
+                    <li>
+                        <div class="top_text">VIP年卡(24个月)</div>
+                        <div class="middle_pri">¥<span id="price2">12.41</span>/月
+                        </div>
+                        <div class="bottom_text">享 400次资源下载</div>
+                    </li>
+                    <li>
+                        <div class="top_text">超级会员年卡</div>
+                        <div class="middle_pri">¥<span id="price3">32.33</span>/月
+                        </div>
+                        <div class="bottom_text">精选课程、专栏免费看</div>
+                    </li>
+                    <li>
+                        <div class="top_text">VIP两年卡</div>
+                        <div class="middle_pri">¥<span id="price4">20.33</span>/月
+                        </div>
+                        <div class="bottom_text">享 800次资源下载</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 第三部分 -->
+        <div class="payways">
+            <h4>支付方式</h4>
+            <div class="pay_bd" id="paybd">
+                <div class="pay_one">
+                    <img src="./images/money.png" alt="">
+                    <div class="pay_name">余额抵扣</div>
+                    <div class="pay_way">
+                        <span id="user_balance">暂无余额</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <img src="./images/weixin.png" alt="">
+                        <div class="pay_name">微信</div>
+                        <div class="pay_way">
+                            <img id="img3" src="./images/check.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/zfb.png" alt="">
+                        <div class="pay_name">支付宝</div>
+                        <div class="pay_way">
+                            <img id="img4" src="./images/check.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/jd.png" alt="">
+                        <div class="pay_name">京东</div>
+                        <div class="pay_way">
+                            <img id="img5" src="./images/check.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="pay_more" id="paymore">
+                展开更多支付方式
+                <i class="ri-arrow-down-s-line"></i>
+            </div>
+        </div>
+        <!-- 第四部分 -->
+        <div class="vipcards">
+            <div class="vip_hd">
+                <h4>VIP年卡(24个月)</h4>
+                <p id="cont_open">会员权益与服务说明</p>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="vip_bd">
+                <ul>
+                    <li>
+                        <div>
+                            <img src="./images/1.png" alt="">
+                        </div>
+                        <p>400次VIP资源下载</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/2.png" alt="">
+                        </div>
+                        <p>个人号推广</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/3.png" alt="">
+                        </div>
+                        <p>付费资源7折优惠</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/4.png" alt="">
+                        </div>
+                        <p>原创保护</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/5.png" alt="">
+                        </div>
+                        <p>购实体书95折优惠</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/6.png" alt="">
+                        </div>
+                        <p>自定义博客域名</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/1.png" alt="">
+                        </div>
+                        <p>VIP标识</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/7.png" alt="">
+                        </div>
+                        <p>购书包邮特权</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/8.png" alt="">
+                        </div>
+                        <p>1000+本电子书</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 弹窗区域 -->
+    <div class="pop_bg" id="close1">
+        <!-- 权益弹窗 -->
+        <div class="pop_cont1" id="popcont1">
+            <div class="cont_hd">
+                <h4>会员权益与服务说明</h4>
+                <i class="ri-close-line" id="close2"></i>
+            </div>
+            <div class="cont_bd">
+                <p>一、VIP使用规则 </p>
+                <p>购买即同意<a href="https://blog.csdn.net/blogdevteam/article/details/111173049" target="_blank">《CSDN会员服务协议》</a></p>
+                <p><a href="https://download.csdn.net/" target="_blank">【下载特权】</a>：（1）VIP 购买成功后，在会员有效期内，VIP 可以免费享受以下权益：月卡 30 次、年卡 400
+                    次、超级年卡 400 次、两年卡 800 次下载立即发放到账，含 VIP 专享资源下载特权和积分资源下载特权，每日下载上限为 20 个资源。（2）新增福利：自 2021 年 4 月 1 日起，VIP
+                    新增 7 折下载付费资源的福利。 </p>
+                <p>【课程及专栏权益】：仅限超级会员年卡享受以下权益：（1）5000+门精品视频课、1000+精选专栏，VIP可以免费学习，权益于2022年4月13日新增；（2）购单门课程9折，不包含组合课程/套餐课程。<a
+                        href="https://edu.csdn.net/studyvip" target="_blank">戳此查看 >> VIP课程、 VIP专栏，选择心仪内容！</a></p>
+                <p>【电子书】：1000+本电子书免费读，打开CSDNAPP-学习-电子书立即开始阅读（暂不支持其他端口阅读）。 </p>
+                <p> 【其他特权】：VIP身份标识及专享皮肤、博客自定义域名、博文原创保护、以及在博文内进行个人号推广等特权。。 </p>
+                <p> 【特别说明】：（1）禁止用户使用任何方式利用本站资源为他人提供有偿下载服务，一经发现，本站有权进行冻结、取消或查封账号等处理。（2）账号异常下载包括同一 IP
+                    多个账号多次下载等情形，一经发现将暂停相关用户下载权益，若账号被多次封禁，则CSDN有权冻结、取消或查封账号。 </p>
+                <p><br></p>
+                <p> 【活动规则】： </p>
+                <p> （1）本次活动期间购买年卡的权益如下： </p>
+                <p> A. 购买618活动页面中的 VIP 年卡，享受的活动权益为：i.会员有效期延长 1 年，2 年享受 400 次下载；ii.1 次抽奖机会，可抽取现金红包，100%中奖； </p>
+                <p> B.购买 CSDN VIP 超级年卡，享受的活动权益为：i.1 次抽奖机会，可抽取现金红包，100%中奖； </p>
+                <p> （2）购买享受活动的 VIP，赠送的 VIP 时长、下载权益及抽奖次数会即时自动发放到用户的账户；
+                    实物奖品，在7个工作日内（含7个工作日）通过“我的-订单详情”填写收货信息，未按照进行奖品兑换并填写收货信息的，即视为主动放弃该奖品；实物奖品将在 30
+                    个工作日内依照用户填写的收货信息陆续发放，若因疫情等原因无法按时邮寄实物奖品的，将在邮寄服务恢复正常后陆续发货。 </p>
+                <p> （3）用户应为其使用的 CSDN 账号绑定真实手机号码，如由于用户提供的信息不真实、不完整、失效或无法联系、不合法等而导致抽奖资格被取消、奖品无法发放或发放错误等后果的，一切责任由用户自行承担。
+                </p>
+                <p> （4）VIP 会员购买后不支持退款，请您谅解！ </p>
+                <p>
+                    （5）【CSDN 提醒用户注意以上活动规则，用户参与活动即视为用户已阅读并认可本活动规则，理解并愿意接受本活动规则的约束。
+                </p>
+                <p> 会员权益可能随不定时的活动规则调整，各活动期间购买的会员权益，请见具体活动的详情页面。</p>
+                <p><br></p>
+                <p> 二、会员续费</p>
+                <p> 1. 会员到期后，将自动取消会员身份及权益，下载次数将清零。 </p>
+                <p> 2. VIP会员有效期内续费8折优惠，在会员有效期内续费，会员权益会自动叠加，未使用完下载次数将累加。 </p>
+                <p> 3. 如何取消微信自动续费：打开微信-我-“支付”，进入页面后点击右上角三个点“...”，点击“扣费服务”，进入服务名称页面，点击服务名称，关闭服务后可取消签约。 </p>
+                <p><br></p>
+                <p> 三、发票及退款规则 </p>
+                <p> 1.
+                    pc端和安卓app端请在订单中心（https://order.csdn.net/myorder）-付款成功订单-“查看详情”，提交发票信息即可。发票金额仅包含实付金额，不包含余额/收益抵扣的金额。
+                </p>
+                <p> 2. 系统默认为电子发票，提交后不支持修改、更换。如需其他发票，请务必提前联系客服（邮箱：vip@csdn.net）。 </p>
+                <p> 3. 订单超过3个月将不再支持开票。 </p>
+                <p> 4. APPIOS端订单不支持开票。 </p>
+                <p> 5. 开通VIP成功后，使用过相关权益或者已经获得了附赠奖品或者已开具过发票的套餐，不支持退款，不支持更换会员套餐。 </p>
+                <p> 6. APP-iOS端拥有苹果专享会员套餐，您可根据需求进行合理选择。需特别注意：iOS端退款问题，请联系苹果公司解决。 </p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+            </div>
+        </div>
+        <!-- 明细弹窗 -->
+        <div class="pop_cont2" id="popcont2">
+            <div class="cont_hd">
+                <h4>支付明细</h4>
+                <i class="ri-close-line" id="close2"></i>
+            </div>
+            <div class="cont_bd">
+                <div class="detail_item">商品价
+                    <span id="detail1">¥298.00</span>
+                </div>
+                <div class="detail_item">优惠券抵扣
+                    <span id="detail2">-¥50.00</span>
+                </div>
+                <div class="detail_item">余额抵扣
+                    <span class="detail3">-¥0.00</span>
+                </div>
+                <div class="detail_item">合计
+                    <span class="num" id="num">¥248.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部区域 -->
+    <footer class="footer" id="footer">
+        <div class="footer_hd" id="footerhd">
+            <span>距离优惠结束还有</span>
+            <div class="victime">
+                <span class="hour">11</span>
+                <span>:</span>
+                <span class="minute">35</span>
+                <span>:</span>
+                <span class="second">56</span>
+            </div>
+        </div>
+        <div class="footer_bd" id="footerbd">
+            <div class="footer_left">
+                <div class="price">
+                    <span>¥</span><span class="money" id="money">248.00</span>
+                </div>
+                <div class="count">
+                    <span id="dis_font">已减<span id="discount">50.00</span>元，</span><span class="details"
+                        id="detail_open">查看明细<i class="ri-arrow-up-s-line"></i></span>
+                </div>
+            </div>
+            <div class="footer_right">
+                <div class="pay_btn">立即开通</div>
+            </div>
+        </div>
+    </footer>
+    <!-- 侧栏活动 -->
+    <div class="activ">
+        <a href="https://vip.csdn.net/welfarecenter?utm_source=vip_wap_gmy_ycxfc" target="_blank"> <img src="./images/ad.gif"
+                alt=""></a>
+
+    </div>
+    
+</body>
+<script src="./js/csdnvip.js"></script>
+
+</html>
